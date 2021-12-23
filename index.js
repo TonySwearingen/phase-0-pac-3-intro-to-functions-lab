@@ -11,11 +11,12 @@ function logWhisper(string) {
     console.log(string.toLowerCase());
 }
 function sayHiToHeadphonedRoommate(string) {
+    console.log(string)
     let info;
-    if(string.toUpperCase()) {
+    if(string.toLowerCase() === string) {
        info = "I can\'t hear you!"
     }
-    else if(string.toUpperCase()){
+    else if(string.toUpperCase() === string){
         info = "YES INDEED!"
     }
     else if (string ="Let\'s have dinner together!") {
